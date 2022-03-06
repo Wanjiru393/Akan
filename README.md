@@ -1,15 +1,16 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# {Akan Name Generator}
+#### {web App generating Akan Names}, {6th March 2022}
+#### By **{Wanjiru Charity}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+
+{ Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. This app will take in a user's year of birth, month of birth, day of birth and select gender.}
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
+
+Step 1 : Clone this AkanNames repository using git clone,https://github.com/Wanjiru393 or downloading a ZIP file of the code.
+Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
+Step 3 : Open the index.html file to view the application on your preferred web browser
+}
 ## Known Bugs
 {None as per now. }
 ## Technologies Used
