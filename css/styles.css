@@ -10,7 +10,7 @@
 body{
     box-sizing:border-box;
     width: 100%;
-    background-image: url("/images/bg3.jpeg");
+    background-image: url("/images/back8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -24,7 +24,7 @@ form {
     width: 35%;
     height: 100%;
     border-radius: 10px; */
-    background-color: rgb(57, 134, 134);
+    background-color: rgb(150, 160, 93);
     /* color: rgb(3, 3, 3);
     font: size 5px;
     opacity: 0.5px;
