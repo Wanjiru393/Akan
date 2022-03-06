@@ -10,20 +10,14 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 <body>
     <h1>Akan-name Generator</h1>
-    <a href="index.html">
-        <button>Back to Home Page</button>
-    </a>
+    
 <div class="container d-flex flex-column align-items-center text-center">
     <h2>Akan Names</h2>
-    <p>Akan names are derived from Ghanian culture.</p>
-    <p>
-    Frequently in Ghana,children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-    Here are Ghanian day names. 
-    </p>
+    <p>Enter your details to generate your Akan Name</p>
      <script src="/script.js"></script>
 </div>
-    <form>
-        Your Date of Birth <br>
+        <form>
+        Select Your Date of Birth <br>
         <select name="Month">
             <option value="month">Month</option>
             <option value="January">January</option>
@@ -40,8 +34,8 @@
             <option value="December">December</option>
         </select>
 
-        <select name="Date">
-            <option value="Date">Date</option>
+        <select name="Day">
+            <option value="Day">Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -64,10 +58,16 @@
             <option value="1987">1987</option>
             <option value="1988">1988</option>
         </select><br><br>
-        <input type="submit" value="Submit">
+        <label> Select Your Gender</label><br>
+        <input type="radio" name="Gender" id="Gender" value="Male"/> Male
+        <input type="radio" name="gender" id="gender" value="female" /> Female<br/><br/>               
+        <input type="submit" class="btn-1" value="Submit" onclick="output()"/>
     </form>
-
-
+<div class="d-flex justify-content-end">
+    <a href="index.html">
+        <button>Home</button>
+    </a>
+</div>
 
 </body>
 </html>
