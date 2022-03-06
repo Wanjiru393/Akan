@@ -21,14 +21,14 @@ function showAkanName(event) {
     //Loop through male array
     for (let i = 0; i < male.length; i++) {
       if (parseInt(day) === i) {
-        alert(male[i]);
+        alert("Your Akan name is: " + male[i]);
       }
     }
     } else {
     //Loop through female array
     for (let i = 0; i < female.length; i++) {
     if (parseInt(day) === i) {
-      alert(female[i]);
+      alert("Your Akan name is: " + female[i]);
     }
     }
     }
