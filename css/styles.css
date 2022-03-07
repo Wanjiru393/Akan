@@ -10,7 +10,7 @@
 body{
     box-sizing:border-box;
     width: 100%;
-    background-image: url("/images/back8.jpg");
+    background-image: url("../images/back8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
