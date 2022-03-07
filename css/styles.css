@@ -1,5 +1,5 @@
 #bg{
-    background:url("../images/c1.jpeg") ;
+    background:url("../images/back8.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -14,8 +14,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    text-indent: 20px;
-    color:aliceblue;
+    text-indent: 15px;
+    color:rgb(255, 255, 255);
     }
 form {
     /* margin-left: 25%;
@@ -24,12 +24,26 @@ form {
     width: 35%;
     height: 100%;
     border-radius: 10px; */
-    background-color: rgb(150, 160, 93);
+    background-color: rgb(174, 184, 111);
     /* color: rgb(3, 3, 3);
     font: size 5px;
     opacity: 0.5px;
     font-family:sans-serif; */
 }
 h1{
-    color: rgb(15, 14, 14);
+    color: rgb(110, 106, 106);
+} 
+h2{
+    color:black;
 }
+.intro{
+    text-align: center;
+    background-image: url("../images/back5.jpeg");
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+
